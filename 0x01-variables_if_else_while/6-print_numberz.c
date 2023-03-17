@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0123456789 (Success)
+ */
 int main(void)
 {
 int i;
@@ -10,6 +15,6 @@ putchar(i + '0');
 }
 putchar('\n');
 
-return 0;
+return (0);
 }
 
