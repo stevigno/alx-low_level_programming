@@ -14,5 +14,5 @@ void *ptr = malloc(b);
 if (!ptr)
 exit(98);
 
-return ptr;
+return (ptr);
 }
