@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *string_nconcat 
+ * *string_nconcat
  * @s1: string to append to
  * @s2: string to concatenate from
  * @n: number of bytes from s2 to concatenate to s1
