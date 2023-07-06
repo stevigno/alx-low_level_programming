@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
+/**
+ * print_binary - Converts a number into binary and displays it.
+ * @n: The number to convert.
  *
- * Prints the binary representation of a number
- * 
- * Return: nothing
- *
+ * Description: This function takes an unsigned number and converts it into
+ * binary before displaying it on the standard output.
  */
 
 void print_binary(unsigned long int n)
