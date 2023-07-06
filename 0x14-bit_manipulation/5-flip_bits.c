@@ -1,16 +1,16 @@
 #include "main.h"
 
-/*
- * *
- * clear_bit - Resets the bit at the given index to 0.
- * @n: A pointer to the number to be modified.
- * @m: The index of the bit to be reset.
+/**
+ * flip_bits - Calculates the number of bits to flip to go from n to m.
+ * @n: The first number.
+ * @m: The second number.
  *
- * Return: the number of bits you would need to flip
+ * Return: The number of bits to flip.
  *
- * Description: This function resets the bit to the specified index
- * in the given number by setting it to 0.
- *
+ * Description: This function calculates the number of bits
+ * that must be inverted inverted to go from number n to number m. It performs
+ * an XOR between the two numbers, then counts the number of bits
+ * 1 bits in the result.
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
