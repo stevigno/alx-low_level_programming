@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
+ * clear_bit - Resets the bit at the given index to 0.
  * @n: A pointer to the number to be modified.
- * @index: The index of the bit to be reset (from right to left, from 0 to 63).
+ * @index: The index of the bit to be reset.
  *
  * Return: 1 on success, -1 on error.
  *
